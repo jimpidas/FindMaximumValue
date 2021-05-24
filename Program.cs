@@ -6,7 +6,7 @@ namespace FindMaximum
     {
         static void Main(string[] args)
         {
-          int max= FindMaximumFromThree.MaximumIntegerNumber(3, 3, 3);
+          int max= FindMaximumFromThree.MaximumIntegerNumber(4, 4, 4);
             Console.WriteLine("The maximum value is :" + max);
         }
     }
