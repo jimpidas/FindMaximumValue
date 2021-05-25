@@ -10,6 +10,8 @@ namespace FindMaximum
             Console.WriteLine("The maximum value is :" + maxInt);
           double maxFloat = FindMaximumFromThree.MaximumFloatNumber(4.4, 4.9, 5.2);
             Console.WriteLine("The maximum value is :" + maxFloat);
+            string maxString = FindMaximumFromThree.MaximumStringNumber("Apple", "Peach" , "Banana");
+            Console.WriteLine("The maximum value is :" + maxString);
 
         }
     }
